@@ -247,7 +247,7 @@ for i in range(len(users)):
     u = UserInfos(k, [], [], [])
     # filename = 'C:/Users/mm03263/OneDrive - University of Surrey/Desktop/data/results/path-planning/' + str(
     #     k) + '/U_' + str(wt) + '.mat'
-    filename = 'C:/Users/mm03263/OneDrive - University of Surrey/Desktop/data/results/new-dataset/5_op.mat'
+    filename = 'C:/Users/mm03263/OneDrive - University of Surrey/Desktop/data/results/new-dataset/errors.mat'
     mat = scipy.io.loadmat(filename)
     error_wc = mat['errors_wc']
     error_op = mat['errors_op']
