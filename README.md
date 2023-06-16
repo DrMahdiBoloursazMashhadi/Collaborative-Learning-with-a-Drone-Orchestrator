@@ -5,7 +5,8 @@ In this research, the problem of drone-assisted collaborative learning is consid
 
 ![system-model5](https://github.com/DrMahdiBoloursazMashhadi/Collaborative-Learning-with-a-Drone-Orchestrator/assets/121172212/3bbc5dbf-116c-4a62-90a9-298ae4581ea7)
 
-To regenerate the paper's simulation resultsm, both MATLAB and Python codes are  the codes, 
+# Usage
+The MATLAB codes in folder "Trajectory Optimization" are provided to optimize the trajectory points for both AIoT and autonomous vehicles scenarios. Simply set the parameters of the intended simulation scenario and run "MainTrajectoryOptimization.m". This will optimize the trajectory points and output the resulting packet error rates in "errors.mat". Move the "errors.mat" file to the folder of interest and run the provided Python codes for the AIoT and autonomous vehicles to train the models and generate the learning curves. Do not forget to change all directory addresses as necessary.
 
 ## Questions?
 For any questions related to this repo, feel free to contact me at m.boloursazmashhadi@surrey.ac.uk or raise an issue within this repo. I will do my best to reply as soon as possible.
